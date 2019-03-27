@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9DC058DBA72FEB05399796 /* Pods_QuinielaMatriz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1297B2D2430FF431DA00B15B /* Pods_QuinielaMatriz.framework */; };
+		CE9C3D27224A970C00E8CCB6 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C3D26224A970C00E8CCB6 /* Forecast.swift */; };
+		CEB9C2EC2249D2AF00C71A04 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C2EB2249D2AF00C71A04 /* UserViewController.swift */; };
+		CEB9C2F1224A6D5100C71A04 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C2F0224A6D5100C71A04 /* User.swift */; };
+		CEBA405822486D2A007DB98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA405722486D2A007DB98D /* AppDelegate.swift */; };
+		CEBA405A22486D2A007DB98D /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA405922486D2A007DB98D /* MatrixViewController.swift */; };
+		CEBA405D22486D2A007DB98D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBA405B22486D2A007DB98D /* Main.storyboard */; };
+		CEBA405F22486D2D007DB98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBA405E22486D2D007DB98D /* Assets.xcassets */; };
+		CEBA406222486D2D007DB98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBA406022486D2D007DB98D /* LaunchScreen.storyboard */; };
+		CEBA406A224871AC007DB98D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA4069224871AC007DB98D /* CollectionViewCell.swift */; };
+		CEDEEF2722496A7800BEED00 /* UsersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDEEF2622496A7800BEED00 /* UsersCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1297B2D2430FF431DA00B15B /* Pods_QuinielaMatriz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuinielaMatriz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71062C488F7C011DE8253A9 /* Pods-QuinielaMatriz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuinielaMatriz.release.xcconfig"; path = "Target Support Files/Pods-QuinielaMatriz/Pods-QuinielaMatriz.release.xcconfig"; sourceTree = "<group>"; };
+		CE9C3D26224A970C00E8CCB6 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		CEB9C2EB2249D2AF00C71A04 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CEB9C2F0224A6D5100C71A04 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEBA405422486D2A007DB98D /* QuinielaMatriz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuinielaMatriz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA405722486D2A007DB98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBA405922486D2A007DB98D /* MatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
+		CEBA405C22486D2A007DB98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBA405E22486D2D007DB98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBA406122486D2D007DB98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBA406322486D2D007DB98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBA4069224871AC007DB98D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CEDEEF2622496A7800BEED00 /* UsersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewCell.swift; sourceTree = "<group>"; };
+		E410FD2DABB087A2AB9639D3 /* Pods-QuinielaMatriz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuinielaMatriz.debug.xcconfig"; path = "Target Support Files/Pods-QuinielaMatriz/Pods-QuinielaMatriz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBA405122486D29007DB98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9DC058DBA72FEB05399796 /* Pods_QuinielaMatriz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3744A8D847A8280D43A75898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1297B2D2430FF431DA00B15B /* Pods_QuinielaMatriz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B774B73172D20C92B8B7CB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E410FD2DABB087A2AB9639D3 /* Pods-QuinielaMatriz.debug.xcconfig */,
+				A71062C488F7C011DE8253A9 /* Pods-QuinielaMatriz.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEB9C2ED2249F28E00C71A04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA405922486D2A007DB98D /* MatrixViewController.swift */,
+				CEB9C2EB2249D2AF00C71A04 /* UserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEB9C2EE2249F2BC00C71A04 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA4069224871AC007DB98D /* CollectionViewCell.swift */,
+				CEDEEF2622496A7800BEED00 /* UsersCollectionViewCell.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CEB9C2EF2249F2D100C71A04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA405B22486D2A007DB98D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEB9C2F2224A6DC600C71A04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C2F0224A6D5100C71A04 /* User.swift */,
+				CE9C3D26224A970C00E8CCB6 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEBA404B22486D29007DB98D = {
+			isa = PBXGroup;
+			children = (
+				CEBA405622486D2A007DB98D /* QuinielaMatriz */,
+				CEBA405522486D2A007DB98D /* Products */,
+				6B774B73172D20C92B8B7CB6 /* Pods */,
+				3744A8D847A8280D43A75898 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBA405522486D2A007DB98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA405422486D2A007DB98D /* QuinielaMatriz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBA405622486D2A007DB98D /* QuinielaMatriz */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA405722486D2A007DB98D /* AppDelegate.swift */,
+				CEB9C2F2224A6DC600C71A04 /* Model */,
+				CEB9C2ED2249F28E00C71A04 /* Controller */,
+				CEB9C2EE2249F2BC00C71A04 /* DataModel */,
+				CEB9C2EF2249F2D100C71A04 /* View */,
+				CEBA405E22486D2D007DB98D /* Assets.xcassets */,
+				CEBA406022486D2D007DB98D /* LaunchScreen.storyboard */,
+				CEBA406322486D2D007DB98D /* Info.plist */,
+			);
+			path = QuinielaMatriz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBA405322486D29007DB98D /* QuinielaMatriz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBA406622486D2D007DB98D /* Build configuration list for PBXNativeTarget "QuinielaMatriz" */;
+			buildPhases = (
+				C60455858E17F1C3B1FA51A8 /* [CP] Check Pods Manifest.lock */,
+				CEBA405022486D29007DB98D /* Sources */,
+				CEBA405122486D29007DB98D /* Frameworks */,
+				CEBA405222486D29007DB98D /* Resources */,
+				350CFF9F1C9B2E192E09E8F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuinielaMatriz;
+			productName = QuinielaMatriz;
+			productReference = CEBA405422486D2A007DB98D /* QuinielaMatriz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBA404C22486D29007DB98D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEBA405322486D29007DB98D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CEBA404F22486D29007DB98D /* Build configuration list for PBXProject "QuinielaMatriz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBA404B22486D29007DB98D;
+			productRefGroup = CEBA405522486D2A007DB98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBA405322486D29007DB98D /* QuinielaMatriz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBA405222486D29007DB98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA406222486D2D007DB98D /* LaunchScreen.storyboard in Resources */,
+				CEBA405F22486D2D007DB98D /* Assets.xcassets in Resources */,
+				CEBA405D22486D2A007DB98D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		350CFF9F1C9B2E192E09E8F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuinielaMatriz/Pods-QuinielaMatriz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuinielaMatriz/Pods-QuinielaMatriz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60455858E17F1C3B1FA51A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuinielaMatriz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBA405022486D29007DB98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA405A22486D2A007DB98D /* MatrixViewController.swift in Sources */,
+				CEB9C2EC2249D2AF00C71A04 /* UserViewController.swift in Sources */,
+				CE9C3D27224A970C00E8CCB6 /* Forecast.swift in Sources */,
+				CEB9C2F1224A6D5100C71A04 /* User.swift in Sources */,
+				CEDEEF2722496A7800BEED00 /* UsersCollectionViewCell.swift in Sources */,
+				CEBA405822486D2A007DB98D /* AppDelegate.swift in Sources */,
+				CEBA406A224871AC007DB98D /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBA405B22486D2A007DB98D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA405C22486D2A007DB98D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBA406022486D2D007DB98D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA406122486D2D007DB98D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBA406422486D2D007DB98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBA406522486D2D007DB98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBA406722486D2D007DB98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E410FD2DABB087A2AB9639D3 /* Pods-QuinielaMatriz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77V8TZELY8;
+				INFOPLIST_FILE = QuinielaMatriz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.QuinielaMatriz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBA406822486D2D007DB98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71062C488F7C011DE8253A9 /* Pods-QuinielaMatriz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77V8TZELY8;
+				INFOPLIST_FILE = QuinielaMatriz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.QuinielaMatriz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBA404F22486D29007DB98D /* Build configuration list for PBXProject "QuinielaMatriz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA406422486D2D007DB98D /* Debug */,
+				CEBA406522486D2D007DB98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBA406622486D2D007DB98D /* Build configuration list for PBXNativeTarget "QuinielaMatriz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA406722486D2D007DB98D /* Debug */,
+				CEBA406822486D2D007DB98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBA404C22486D29007DB98D /* Project object */;
+}
