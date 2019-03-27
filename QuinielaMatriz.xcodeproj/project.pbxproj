@@ -64,7 +64,6 @@
 				E410FD2DABB087A2AB9639D3 /* Pods-QuinielaMatriz.debug.xcconfig */,
 				A71062C488F7C011DE8253A9 /* Pods-QuinielaMatriz.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +169,7 @@
 				TargetAttributes = {
 					CEBA405322486D29007DB98D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -418,7 +418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.user.QuinielaMatriz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -437,7 +437,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.user.QuinielaMatriz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
