@@ -26,14 +26,14 @@ class Forecast {
     init(squareOf: SquareType = .Five) {
         switch squareOf {
         case .Five:
-            rows = 5
-            columns = 5
-            awaySetScores = [["0", "5"], ["1", "6"], ["2", "7"], ["3", "8"], ["4", "9"]]
-            homeSetScores = [["0", "1"], ["2", "3"], ["4", "5"], ["6", "7"], ["8", "9"]]
+            rows = 6
+            columns = 6
+            awaySetScores = [[], ["0", "5"], ["1", "6"], ["2", "7"], ["3", "8"], ["4", "9"]]
+            homeSetScores = [[], ["0", "1"], ["2", "3"], ["4", "5"], ["6", "7"], ["8", "9"]]
             break
         case .Ten:
-            rows = 10
-            columns = 10
+            rows = 11
+            columns = 11
             awaySetScores = [[0..<10].map{ "\($0)" }]
             homeSetScores = [[0..<10].map{ "\($0)" }]
         }

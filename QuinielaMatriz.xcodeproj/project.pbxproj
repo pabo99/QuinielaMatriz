@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F9DC058DBA72FEB05399796 /* Pods_QuinielaMatriz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1297B2D2430FF431DA00B15B /* Pods_QuinielaMatriz.framework */; };
+		CE17919A224C461A00858677 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE179199224C461900858677 /* Team.swift */; };
 		CE9C3D27224A970C00E8CCB6 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C3D26224A970C00E8CCB6 /* Forecast.swift */; };
 		CEB9C2EC2249D2AF00C71A04 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C2EB2249D2AF00C71A04 /* UserViewController.swift */; };
 		CEB9C2F1224A6D5100C71A04 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C2F0224A6D5100C71A04 /* User.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		1297B2D2430FF431DA00B15B /* Pods_QuinielaMatriz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuinielaMatriz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71062C488F7C011DE8253A9 /* Pods-QuinielaMatriz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuinielaMatriz.release.xcconfig"; path = "Target Support Files/Pods-QuinielaMatriz/Pods-QuinielaMatriz.release.xcconfig"; sourceTree = "<group>"; };
+		CE179199224C461900858677 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		CE9C3D26224A970C00E8CCB6 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		CEB9C2EB2249D2AF00C71A04 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		CEB9C2F0224A6D5100C71A04 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB9C2F0224A6D5100C71A04 /* User.swift */,
+				CE179199224C461900858677 /* Team.swift */,
 				CE9C3D26224A970C00E8CCB6 /* Forecast.swift */,
 			);
 			path = Model;
@@ -260,6 +263,7 @@
 				CEB9C2EC2249D2AF00C71A04 /* UserViewController.swift in Sources */,
 				CE9C3D27224A970C00E8CCB6 /* Forecast.swift in Sources */,
 				CEB9C2F1224A6D5100C71A04 /* User.swift in Sources */,
+				CE17919A224C461A00858677 /* Team.swift in Sources */,
 				CEDEEF2722496A7800BEED00 /* UsersCollectionViewCell.swift in Sources */,
 				CEBA405822486D2A007DB98D /* AppDelegate.swift in Sources */,
 				CEBA406A224871AC007DB98D /* CollectionViewCell.swift in Sources */,

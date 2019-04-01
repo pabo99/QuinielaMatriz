@@ -15,5 +15,11 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var userImage: UIImageView!
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        layer.cornerRadius = self.frame.width / 2
+    }
+    
 }
 
