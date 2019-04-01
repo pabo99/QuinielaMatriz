@@ -51,8 +51,11 @@ class MatrixViewController: UIViewController {
         super.viewWillTransition(to: size, with: coordinator)
         // Some code for device rotation
         if UIDevice.current.orientation.isLandscape {
+            navigationController?.setNavigationBarHidden(true, animated: true)
         } else {
+            navigationController?.setNavigationBarHidden(false, animated: true)
         }
+        //navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     override func viewWillLayoutSubviews() {
@@ -79,7 +82,7 @@ class MatrixViewController: UIViewController {
         let minimumSpace = availableHeight < availableWidth ? availableHeight : availableWidth
         cellHeight = CGFloat(minimumSpace) / CGFloat(forecast.columns)
         cellWidth = CGFloat(minimumSpace) / CGFloat(forecast.columns)
-        print("height: \(availableHeight), width: \(availableWidth), cellHeight: \(cellHeight), cellWidth: \(cellWidth)")
+        //print("height: \(availableHeight), width: \(availableWidth), cellHeight: \(cellHeight), cellWidth: \(cellWidth)")
     }
     
     func clearCell(with cell: CollectionViewCell) {
@@ -91,6 +94,15 @@ class MatrixViewController: UIViewController {
     
     func isHeader(at indexPath: IndexPath) -> Bool {
         return indexPath.section == 0 || indexPath.item == 0
+    }
+    
+    // MARK: - Actions
+    
+    @IBAction func clearAllClicked(_ sender: UIBarButtonItem) {
+        Alert.showAlertWithActions(on: self, with: "Delete All", message: "Are you sure you want to delete the forecast for all users?") { (action) in
+            self.forecast.resetResults()
+            self.collectionView.reloadData()
+        }
     }
 }
 
@@ -171,25 +183,10 @@ extension MatrixViewController: AddForecastUser {
     }
     
     func unselectUserResult(home: Int, away: Int) {
-        // Declare Alert message
-        let dialogMessage = UIAlertController(title: "Confirm", message: "Are you sure you want to delete the forecast for this user?", preferredStyle: .alert)
-        
-        // Create OK button with action handler
-        let ok = UIAlertAction(title: "Delete", style: .destructive, handler: { (action) -> Void in
+        Alert.showAlertWithActions(on: self, with: "Delete", message: "Are you sure you want to delete the forecast for this user?") { (action) in
             self.forecast.results[home][away] = nil
             self.collectionView.reloadData()
-        })
-        
-        // Create Cancel button with action handlder
-        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { (action) -> Void in
         }
-        
-        //Add OK and Cancel button to dialog message
-        dialogMessage.addAction(ok)
-        dialogMessage.addAction(cancel)
-        
-        // Present dialog message to user
-        self.present(dialogMessage, animated: true, completion: nil)
     }
 }
 

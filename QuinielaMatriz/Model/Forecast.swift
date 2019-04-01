@@ -37,6 +37,11 @@ class Forecast {
             awaySetScores = [[0..<10].map{ "\($0)" }]
             homeSetScores = [[0..<10].map{ "\($0)" }]
         }
+        resetResults()
+    }
+    
+    func resetResults() {
+        results = [[User]]()
         for _ in 0..<rows {
             users = [User]()
             for _ in 0...columns {
@@ -44,5 +49,6 @@ class Forecast {
             }
             results.append(users)
         }
+        print(results)
     }
 }
